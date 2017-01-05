@@ -1,4 +1,4 @@
-package main // import github.com/anoland/webapp_skeleton
+package main // import "github.com/anoland/webapp_skeleton"
 
 
 func main() {

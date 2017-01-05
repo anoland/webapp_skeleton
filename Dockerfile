@@ -4,7 +4,7 @@ ADD s6-overlay-amd64.tar.gz /
 ENV S6_KEEP_ENV=1
 COPY /etc/services.d/ /etc/services.d/
 
-COPY webapp /bin/
+COPY webapp_skeleton /bin/
 ENV PORT 8080
 EXPOSE 8080:8080
 
